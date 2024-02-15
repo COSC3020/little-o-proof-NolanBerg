@@ -26,5 +26,5 @@ For any constant $c > 0$, there is a threshold $n(0)$ for any $n >= n(0), f(n) <
 
 $f(n)\in O(g(n))$:
 
-For positive constants $c' and n'(0)$ for any $n >= n'(0), f(n) <= c 'g(n)$.
+For positive constants $c'$ and $n'(0)$ for any $n >= n'(0), f(n) <= c 'g(n)$.
 
