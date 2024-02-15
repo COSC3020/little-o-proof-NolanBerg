@@ -18,6 +18,6 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-Since $f(n) \in o(g(n))$ is defined as for any constant $c > 0$, there exists a threshold $n(0)$ such that for any $n \geq \n_0$, $f(n) < c g(n)$, and $f(n) \in O(g(n))$ is defined as for positive constants $c'$ and $n'(0)$ there exists $n \geq n'(0)$ such that $f(n) \leq c'g(n)$, we can establish the implication that $f(n) \in o(g(n))$ implies $f(n) \in O(g(n))$ by substituting $c' = c$ and $n'(0) = n(0)$. This substitution ensures that the conditions for $f(n) \in O(g(n))$ are satisfied, making the two statements equivalent in this context.
+Since $f(n) \in o(g(n))$ is defined as for any constant $c > 0$, there exists a threshold $n(0)$ such that for any $n \geq n_0$, $f(n) < c g(n)$, and $f(n) \in O(g(n))$ is defined as for positive constants $c'$ and $n'(0)$ there exists $n \geq n'(0)$ such that $f(n) \leq c'g(n)$, we can establish the implication that $f(n) \in o(g(n))$ implies $f(n) \in O(g(n))$ by substituting $c' = c$ and $n'(0) = n(0)$. This substitution ensures that the conditions for $f(n) \in O(g(n))$ are satisfied, making the two statements equivalent in this context.
 
 $f(n)\in o(g(n))$ implies $f(n)\in O(g(n))$.
