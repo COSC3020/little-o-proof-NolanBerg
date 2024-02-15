@@ -18,4 +18,6 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-We must prove that for a function f(n) and g(n) that $f(n)\in o(g(n))$ and $f(n)\in O(g(n))$
+We must prove that for a function f(n) and g(n) that $f(n)\in o(g(n))$ and $f(n)\in O(g(n))$. Lets give the formal definitions for both $f(n)\in o(g(n))$ and $f(n)\in O(g(n))$:
+
+
