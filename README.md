@@ -28,3 +28,4 @@ $f(n)\in O(g(n))$:
 
 For positive constants $c'$ and $n'(0)$ such that $n >= n'(0), f(n) <= c 'g(n)$.
 
+Given $f(n)\in o(g(n))$, we can substitute $c' = c$ and $n'(0) = n(0)$ to satisfy $f(n)\in O(g(n))$. With this change we can assume $f(n)\in o(g(n))$ implies $f(n)\in O(g(n))$
