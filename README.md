@@ -22,7 +22,7 @@ Resources: Found definitions online for proof
 
 $f(n) \in o(g(n)) \iff \forall c > 0, \exists n_0, \forall n \geq n_0 : f(n) < c g(n) \Rightarrow \exists c > 0, \exists n_0 \in \mathbb{N}, \forall n \geq n_0 : f(n) \leq c g(n)$
 
-Little-o requires the statement to hold for all positive constants $\ c \$ due to $\ \forall c > 0 \$. Big-O uses $\ \exists c > 0 \$, meaning there needs to be at least one constant for the statement to hold.
+Little-o requires the statement to hold for all positive constants $\c\$ due to $\ \forall c > 0 \$. Big-O uses $\ \exists c > 0 \$, meaning there needs to be at least one constant for the statement to hold.
 
 The inequality differs between these two notations. Little-o has the inequality $\( < \)$, indicating that $f(n)\$ grows slower than $\ g(n) \$. Big-O has the inequality $\( \leq \)$, implying that $f(n)\$ grows at most as fast as $\ g(n) \$. Therefore, $f(n) < cg(n)\$ implies $\ f(n) \leq cg(n) \$.
 
