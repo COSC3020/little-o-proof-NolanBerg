@@ -20,7 +20,7 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 Resources: Found definitions online for proof
 
-$f(n) \in o(g(n)) \iff \forall c > 0, \exists n_0, \forall n \geq n_0 : f(n) < c g(n) Rightarrow \exists c > 0, \exists n_0 \in \mathbb{N}, \forall n \geq n_0 : f(n) \leq c g(n)$
+$f(n) \in o(g(n)) \iff \forall c > 0, \exists n_0, \forall n \geq n_0 : f(n) < c g(n) \Rightarrow \exists c > 0, \exists n_0 \in \mathbb{N}, \forall n \geq n_0 : f(n) \leq c g(n)$
 
 
 $f(n)\in o(g(n))$ implies $f(n)\in O(g(n))$.
